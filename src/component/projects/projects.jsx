@@ -3,30 +3,30 @@ import gsap from "gsap";
 import "../projects/style.scss";
 
 const projects = [
-  { image: "src/assets/Dashboard/image 1.png" },
-  { image: "src/assets/Dashboard/image 2.png" },
-  { image: "src/assets/Dashboard/image 3.png" },
-  { image: "src/assets/Dashboard/image 4.png" },
-  { image: "src/assets/Dashboard/image 6.png" },
-  { image: "src/assets/Dashboard/image 7.png" },
-  { image: "src/assets/Dashboard/image 11.png" },
-  { image: "src/assets/Dashboard/image 14.png" },
-  { image: "src/assets/Dashboard/image 15png" },
-  { image: "src/assets/Dashboard/image 16.png" },
-  { image: "src/assets/Dashboard/image 17.png" },
-  { image: "src/assets/Dashboard/image 1.png" },
+  { image: "public/assets/Dashboard/image 1.png" },
+  { image: "public/assets/Dashboard/image 2.png" },
+  { image: "public/assets/Dashboard/image 3.png" },
+  { image: "public/assets/Dashboard/image 4.png" },
+  { image: "public/assets/Dashboard/image 6.png" },
+  { image: "public/assets/Dashboard/image 7.png" },
+  { image: "public/assets/Dashboard/image 11.png" },
+  { image: "public/assets/Dashboard/image 14.png" },
+  { image: "public/assets/Dashboard/image 15png" },
+  { image: "public/assets/Dashboard/image 16.png" },
+  { image: "public/assets/Dashboard/image 17.png" },
+  { image: "public/assets/Dashboard/image 1.png" },
 ];
 
 
 const workedon = [
-    { image: "ssrc/assets/13.png" },
-    { image: "src/assets/aksh.png" },
-    { image: "src/assets/cropped-cr.webp" },
-    { image: "src/assets/sst.jpg" },
-    { image: "src/assets/logo1.png" },
-    { image: "src/assets/Dashboard Phase 5/SUREPEOPLE LOGO.png" },
-    { image: "src/assets/Dashboard Phase 5/Vector (1).png" },
-    { image: "src/assets/Dashboard Phase 5/Vector.png" },
+    { image: "spublic/assets/13.png" },
+    { image: "public/assets/aksh.png" },
+    { image: "public/assets/cropped-cr.webp" },
+    { image: "public/assets/sst.jpg" },
+    { image: "public/assets/logo1.png" },
+    { image: "public/assets/Dashboard Phase 5/SUREPEOPLE LOGO.png" },
+    { image: "public/assets/Dashboard Phase 5/Vector (1).png" },
+    { image: "public/assets/Dashboard Phase 5/Vector.png" },
   
   ];
 

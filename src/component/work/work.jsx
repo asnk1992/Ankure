@@ -4,32 +4,32 @@ import '../work/style.scss'
 const works = [
   {
     // name: "Web Design",
-    logo: "src/assets/logos/sp.png",
+    logo: "public/assets/logos/sp.png",
     // URL: "https://akshoptifibre.com/index.html"
   },
   {
     // name: "Web Development",
-    logo: "src/assets/logos/vector.png",
+    logo: "public/assets/logos/vector.png",
     // URL: "https://akshoptifibre.com/index.html"
   },
   {
     // name: "User Experience",
-    logo: "src/assets/logos/13.png",
+    logo: "public/assets/logos/13.png",
     // URL: "https://akshoptifibre.com/index.html"
   },
   {
     // name: "UI Testing",
-    logo: "src/assets/logos/logo1.png",
+    logo: "public/assets/logos/logo1.png",
     // URL: "https://akshoptifibre.com/index.html"
   },
   {
     // name: "WordPress Solutions",
-    logo: "src/assets/logos/aksh.png",
+    logo: "public/assets/logos/aksh.png",
     // URL: "https://akshoptifibre.com/index.html"
   },
   {
     // name: "Digital Marketing",
-    logo: "src/assets/logos/sst.jpg",
+    logo: "public/assets/logos/sst.jpg",
     // URL: "https://akshoptifibre.com/index.html"
   },
  

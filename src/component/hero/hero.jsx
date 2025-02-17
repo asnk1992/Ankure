@@ -22,7 +22,7 @@ const Hero = () => {
 <a href='#'className='btn'>Download Cv</a>
                 </div>
                 <div className="hero-img">
-                    <img src='src/assets/dp.png' alt=''></img>
+                    <img src='public/assets/dp.png' alt=''></img>
                 </div>
             </section>
 

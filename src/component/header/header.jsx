@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <div className={`header-container ${scrolled ? 'scrolled' : ''}`}>
       <div className="header">
-        <a href='#' className='logo'><img className='logos' src='src/assets/logos/log.png' alt='#'/></a>
+        <a href='#' className='logo'><img className='logos' src='public/assets/logos/log.png' alt='#'/></a>
 
         {/* Hamburger Icon for Small Screens */}
         <div className="menu-icon" onClick={toggleButton}>
