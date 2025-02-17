@@ -1,0 +1,76 @@
+.portfolio {
+    background-color: #000;
+    min-height: 100vh;
+    padding: 10rem 9%;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.portfolio-box {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    background-color: #3b3b3b;
+}
+
+.portfolio-box:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-box img {
+    width: 100%;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.portfolio-box:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-layer {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.portfolio-layer h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-layer a {
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.portfolio-layer a:hover {
+    background: var(--main-color);
+}

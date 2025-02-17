@@ -1,0 +1,52 @@
+.services{
+    min-height: 100vh;
+    padding: 10rem 9%;
+    background:  var(--second-bg-color);
+}
+
+.services h2{
+   margin-bottom: 5rem;
+   color: #fff;
+
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-container .services-box{
+
+    flex: 1 1 30rem;
+    background: var(--second-main);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid rgb(246, 130, 130);
+    
+}
+
+.services-box{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3{
+    font-size: 2.6rem;
+    color: #fff;
+
+}
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    color: #fff;
+
+}
+
+.services-container .services-box :hover{
+
+  border-color: 2px solid red;
+  transform: scale(1.02);
+    
+}
